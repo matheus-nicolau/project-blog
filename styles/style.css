@@ -1,0 +1,86 @@
+/* menu */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: rgb(233, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo {
+    background: rgba(117, 35, 175, 0.781);
+    color: white;
+    padding: 7px;
+    text-align: center;
+    margin: auto;
+}
+#cabecalho {
+    padding: 25px;
+    margin: 10px;
+}
+#link-cabecalho {
+    font-size: 17px;
+}
+#link-cabecalho a {
+    text-decoration: none;
+    padding: 7px 20px;
+    margin: 30px 10px;
+}
+#link-cabecalho a:link, #link-cabecalho a:visited {
+    color: white;
+}
+#link-cabecalho a:hover {
+    color: rgb(78, 6, 129); 
+}
+#link-cabecalho a:active{
+    color: rgb(78, 6, 129); 
+}
+.cortit {
+    color: rgb(255, 88, 22);
+}
+.fonte1 {
+    font-size: 30px;
+}
+#limpa {
+    clear: both;
+}
+/* Inico área de postagem  */
+#area-conteudo {
+    background: white;
+    color: black;
+    width: 920px ;
+    margin: 10px auto;
+
+}
+#conteudo-principal {
+    width: 660px;
+    float: left;
+}
+#postagem-lateral {
+    width: 240px;
+    float: right;
+    margin: 3px;
+}
+#conteudo-principal, #postagem-lateral {
+    background: rgb(255, 255, 255);
+}
+#posicao-img {
+    margin: 10px;
+}
+.format-postagem {
+    padding: 20px auto;
+}
+.format-text {
+    text-align: center;
+}
+.format-title {
+    color: rgb(255, 120, 66);
+    padding: 20px;
+}
+.format-link {
+    color: rgb(27, 8, 46);
+}
+.fundo-lateral {
+    background: rgb(206, 206, 206);
+    padding: 120px;
+}
